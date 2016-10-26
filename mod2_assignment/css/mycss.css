@@ -1,0 +1,78 @@
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-family: Arial;
+	font-size: 175%;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 3%;
+}
+p { 
+  	font-family: Helvetica;
+  	color: black;
+  	padding: 10px;
+  	clear: both;
+}
+section {
+	font-family: Helvetica;
+	font-size: 125%;
+	text-align: center;
+	border: 1px solid black;
+	width: 150px;
+	margin-bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	float: right;
+}
+
+/* Simple Responsive Framework. */
+.row {
+  	width: 100%;
+  	padding-left: 10px;
+  	padding-right: 10px;
+}
+.rectangle {
+	background-color: #A9A9A9;
+	border: 1px solid black;
+	margin: 20px;
+}
+
+#sect1 {
+	background-color: #FFC0CB;
+	color: black;
+}
+#sect2 {
+	background-color: #FF0000;
+	color: white;
+}
+#sect3 {
+	background-color: #FAFAD2;
+	color: black;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+	.col-lg-4 {
+		float: left;
+		width: 33.33%;
+	}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6 {
+		float:left;
+		width: 50%;
+	}
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float:left;
+		width: 100%;
+	}
+}
+
+
