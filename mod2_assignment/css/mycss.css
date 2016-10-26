@@ -36,6 +36,7 @@ section {
 	background-color: #A9A9A9;
 	border: 1px solid black;
 	margin: 20px;
+	position: relative;
 }
 
 #sect1 {
