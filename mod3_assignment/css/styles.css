@@ -20,6 +20,33 @@ body {
 	text-decoration: none;
 }
 
+.navbar-toggle {
+	background-color: #C5B5AA;
+	margin-bottom: 15px;
+}
+
+.navbar-toggle:hover {
+	background-color: #D8D2CF;
+}
+
+.navbar-nav {
+	margin: 0px -15px;
+}
+
+#collapsable-nav ul li a {
+	color: black;
+	font-weight: bold;
+}
+
+#collapsable-nav ul li:nth-child(1), #collapsable-nav ul li:nth-child(2) {
+	border-bottom: 1px solid white;
+}
+
+#collapsable-nav ul li:hover {
+	background-color: #D8D2CF;
+	cursor: pointer;
+}
+
 #menu-top {
 	padding-top: 20px;
 	margin-top:10px;
